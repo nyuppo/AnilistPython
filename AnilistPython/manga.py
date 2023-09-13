@@ -125,8 +125,6 @@ class Manga:
                 curr_manga = data['data']['Page']['media'][i]['title']['romaji']
                 manga_list.append(curr_manga)
 
-            print(manga_list)
-
             # returns the first manga found
             try:
                 manga_ID = data['data']['Page']['media'][0]['id']
